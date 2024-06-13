@@ -1,25 +1,23 @@
-SUPSI 20223-24
+SUPSI 2023-24
 Corso d’interaction design, CV428.01
 Docenti: A. Gysin, G. Profeta
 
-Elaborato 1: XS
+Elaborato 1: XL
 
-Me, Myself and AI
+# Me, Myself and AI
 
 Autore: Dragan Radic
-Me, Myself and AI
+[Me, Myself and AI](https://imdragan.github.io/MeMyselfAI/)
 
-Introduzione e tema
+## Introduzione e tema
 
 Questo progetto si concentra sulla creazione di un'interfaccia web interattiva per la visualizzazione e l'animazione di immagini categorizzate. L'obiettivo principale è quello di mostrare visivamente le informazioni estratte da un dataset JSON contenente annotazioni di oggetti rilevati nelle immagini.
 
-Riferimenti progettuali
+## Riferimenti progettuali
 
 Il progetto è ispirato a un'applicazione web didattica per la visualizzazione dinamica di immagini categorizzate tramite tecnologie web moderne. L'interfaccia utente è progettata per essere intuitiva, con un layout flessibile che si adatta a diversi dispositivi.
 
-
-
-Design dell’interfraccia e modalià di interazione
+## Design dell’interfraccia e modalià di interazione
 
 L'interfaccia è divisa in sezioni, ciascuna dedicata a una categoria specifica di oggetti rilevati nelle immagini. Ogni sezione include:
 
@@ -29,7 +27,7 @@ Navigazione semplice attraverso pulsanti per altre sezioni e per tornare alla ho
 Il design è minimalista, con colori neutri per favorire la leggibilità e l'attenzione sul contenuto visivo.
 
 
-Tecnologia usata
+## Tecnologia usata
 
 Il progetto fa largo uso delle seguenti tecnologie:
 
@@ -38,7 +36,7 @@ JavaScript: Per la manipolazione dinamica del DOM e per gestire l'animazione del
 Fetch API: Per recuperare e caricare dati da file JSON contenenti informazioni sugli oggetti rilevati nelle immagini.
 Responsive Design: Layout adattabile per supportare una varietà di dimensioni schermo e dispositivi.
 
-Parti di codice rilevanti per il progetto
+## Parti di codice rilevanti per il progetto
 
 Ecco un esempio di codice significativo per l'animazione delle immagini all'interno del cerchio:
 
@@ -118,7 +116,7 @@ function loadCanvas(classe, containerId) {
 
 
 
-Contesto d’uso e Target
+## Contesto d’uso e Target
 
 Questo progetto è destinato a essere utilizzato come strumento educativo interattivo per l'apprendimento dei sistemi di visione artificiale e per la visualizzazione dinamica di dataset annotati. È ideale per studenti, ricercatori e appassionati di intelligenza artificiale che desiderano esplorare e comprendere il processo di rilevamento degli oggetti in immagini.
 
