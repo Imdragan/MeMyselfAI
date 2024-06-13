@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizza Tutte le Immagini</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Me Myself and AI</h1>
+            <button onclick="location.href='home.html'">Home</button>
+            <button onclick="location.href='index.html'">Generi</button>
+            <button onclick="location.href='view_all.html'">Visualizza Tutte le Immagini</button>
+            <button onclick="location.href='https://ixd-supsi.github.io/2024/'">INDEX</button>
+
+
+            <select id="category-filter">
+                <option value="all">Tutte le Categorie</option>
+                <!-- Opzioni verranno aggiunte dinamicamente -->
+            </select>
+        </nav>
+    </header>
+    <main id="content">
+        <div id="image-grid"></div>
+    </main>
+    <script src="view_all.js"></script>
+</body>
+</html>

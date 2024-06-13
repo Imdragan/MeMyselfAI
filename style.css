@@ -1,0 +1,139 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color:white;
+}
+
+header {
+    background-color:aliceblue;
+    border-bottom: 2px solid black;
+    padding: 20px;
+    text-align: left;
+}
+
+nav button {
+    background-color: #ffffff;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left:10px;
+    padding-left: 10px;
+    border-radius: 8px; /* Bordo arrotondato */
+
+}
+
+nav button:hover {
+    background-color: #e0e0e0;
+}
+
+main {
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.outer-box {
+    border: 2px solid black;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    flex: 1;
+    margin: 0 10px;
+    background-color:aliceblue;
+    border-radius: 8px; /* Bordo arrotondato */
+
+}
+
+.info-box {
+    flex: 3;
+    padding: 10px;
+    text-align: justify;
+    overflow: auto;
+    margin-left: 20px; /* Spazio tra il cerchio e le informazioni */
+}
+
+.circle-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black; /* Bordo di 2px nero attorno al cerchio */
+    border-radius: 50%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.floating-image {
+    position: absolute;
+    transition: transform 2s ease-in-out;
+}
+
+h1 {
+    color: black;
+    padding-left: 15px;
+}
+
+#image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Colonne dinamiche */
+    gap: 20px; /* Spazio tra le immagini */
+}
+
+#image-grid img {
+    width: 100%; /* Immagini occupano tutta la larghezza del loro contenitore */
+    height: auto; /* Altezza automatica rispetto alla larghezza */
+    display: block; /* Rimuove lo spazio extra sotto l'immagine */
+    border-radius: 8px; /* Bordo arrotondato */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Ombra leggera */
+    transition: transform 0.2s ease-in-out; /* Effetto di transizione al passaggio del mouse */
+}
+
+#image-grid img:hover {
+    transform: scale(1.05); /* Ingrandisce leggermente l'immagine al passaggio del mouse */
+}
+
+
+nav #category-filter {
+   
+    background-color: #ffffff;
+    border: 2px solid black;
+    color: black;
+    cursor: pointer;
+    font-size: 16px;
+    margin-left:10px;
+    padding-left: 10px;
+    border-radius: 8px; /* Bordo arrotondato */
+    transition: background-color 0.3s ease; /* Effetto di transizione */
+    
+
+  
+}
+
+nav #category-filter:hover {
+    background-color: #e0e0e0; /* Cambia colore al passaggio del mouse */
+}
+
+nav #category-filter option {
+    background-color: #ffffff; /* Colore di sfondo delle opzioni */
+    color: black; /* Colore del testo delle opzioni */
+    font-size: 16px; /* Dimensione del carattere delle opzioni */
+    padding: 10px 20px; /* Spaziatura interna delle opzioni */
+}
+
+nav #category-filter:focus {
+    outline: none; /* Rimuove l'outline al focus */
+}
+
+
+
+
+
